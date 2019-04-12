@@ -28,7 +28,7 @@ android {
 }
 
 dependencies {
-    api files('libs/facesdk.jar')
+    api files('libs/FaceSDK.jar')
     api files('libs/ast.jar')
     api files('libs/baidu_license.jar')
     api 'com.facebook.react:react-native:+'
