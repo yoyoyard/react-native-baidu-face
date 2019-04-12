@@ -28,7 +28,6 @@ android {
 }
 
 dependencies {
-    api fileTree(dir: 'libs', include: ['*.jar'])
     api files('libs/facesdk.jar')
     api files('libs/ast.jar')
     api files('libs/baidu_license.jar')
